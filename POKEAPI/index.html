@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div> 
+    <div class="pokedex-container">
+        <h1 class="pokedex-title">Pokedex</h1>
+        <div class="search-bar mb-4">
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar Pokémon...">
+            <button id="search-btn" class="search-btn">Buscar</button>
+        </div>
+        <div class="pokedex">
+            <div class="left-panel">
+                <div class="pokemon-info">
+                    <h1 class="pokemon-name"></h1>
+                    <p class="pokemon-id"></p>
+                    <img class="pokemon-image" src="" alt="Ivysaur">
+                </div>
+                <div class="buttons mt-3">
+                    <button class="shiny-btn">Shiny</button>
+                </div>
+                <p class="pokemon-description mt-3"></p>
+            </div>
+            <div class="right-panel">
+                <div class="stats mb-4">
+                    <h2>Tipos</h2>
+                    <div class="type-container">
+                        <div class="type grass"></div>
+                        <div class="type poison"></div>
+                    </div>
+                </div>
+                <div class="stats mb-4">
+                    <h2>Estadísticas</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="evolutions mb-4">
+                    <h2>Evoluciones</h2>
+                    <div class="evolution-stage">
+                        <img src="" alt="">
+                        <p></p>
+                    </div>
+                    <div class="evolution-stage">
+                        <img src="" alt="">
+                        <p></p>
+                    </div>
+                    <div class="evolution-stage">
+                        <img src="" alt="">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="moves mb-4">
+                    <h2>Movimientos</h2>
+                    <p class="move-name"></p>
+                    <p class="move-type"></p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="prev-btn">◀</button>
+                    <button class="next-btn">▶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Java.js"></script>
+</body>
+</html>
